@@ -13,6 +13,11 @@
 
 
  /* Main Style */
+ header{
+  background:url("images/developer.png"), url("images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left, right bottom;
+ }
 
  .logo h2 {
    font-size: 45px;
@@ -110,3 +115,112 @@
    max-width: 584px;
    vertical-align: middle;
  }
+
+ /* here is about section  */
+ #about{
+  padding-top: 130px;
+ }
+ #about .about-container{
+  max-width: 71%;
+  width: 1140px;
+  background-color: #FFF8F3;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  padding: 120px 156px 142px;
+ }
+ .about-container .about-detail h4{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+ }
+ .about-container .about-detail p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+ }
+ .about-info{
+  display: flex;
+  justify-content: space-between;
+ }
+ .about-info .info p{
+  color: #757575;
+  font-size: 20px;
+  line-height: 30px;
+ }
+ .about-info .info h4{
+  color: #474747;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+ }
+ /* Experience section start */
+ #experience{
+  padding-top: 130px;
+ }
+ .experience-container{
+  max-width: 71%;
+  width: 1140px;
+  /* display: flex; */
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+ }
+.experience-header{
+  width: 827px;
+  margin: 0 auto;
+}
+
+ .experience-container .experience-header h4{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+ }
+ .experience-container .experience-header p{
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
+ }
+
+.experience-card{
+  gap: 40px;
+  display: flex;
+  text-align: left;
+}
+
+ .experience-card .ex-card{
+  padding: 30px;
+  width: 267px;
+  box-shadow: 0px 6px 50px rgb(233, 227, 227);
+  /* border: 1px solid black; */
+ }
+.experience-card .ex-card img{
+  margin-bottom: 30px;
+  width: 44px;
+  height: 44px;
+}
+.experience-card .ex-card h4{
+  margin-bottom: 30px;
+  color: #181818;
+  font-weight: bold;
+  font-size: 20px;
+}
+.experience-card .ex-card p{
+  line-height: 28px;
+  color: #757575;
+  font-size: 16px;
+}
+#summary{
+  padding-top: 130px;
+}
+
+#summary .summary-container{
+  max-width: 70%;
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
